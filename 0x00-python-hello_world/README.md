@@ -2,4 +2,6 @@
 
 0. 0-run - Shell script runs a python script saved in $PYFILE.
 
-1. 1-run_inline = Shell script runs inline python code saved in  $PYCODE.
+1. 1-run_inline - Shell script runs inline python code saved in  $PYCODE.
+
+2. 2-print.py - Python script prints exactly \"Programming is like building a multilingual puzzle, followed by a new line.
