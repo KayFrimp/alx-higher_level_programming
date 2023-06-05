@@ -11,3 +11,5 @@
 3. 3-print_number.py - Prints integer stored in variable number, followed by Battery street, followed by a new line using f-strings.
 
 4. 4-print_float.py - Prints a floating value with only 2 decimal points.
+
+5. 5-print_string.py - print 3 times a string stored in a variable str, followed by its first 9 characters.
