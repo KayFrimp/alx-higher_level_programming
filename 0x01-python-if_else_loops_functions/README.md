@@ -6,3 +6,5 @@
 1. 1-last_digit.py - Prints last digits of a randomly generated number.
 
 2. 2-print_alphabet.py - Prints ASCII alphabets in lowercase.
+
+3. 3-print_alphabt.py - Prints all ASCII alphabets in lowercase except 'e' and 'q'.
