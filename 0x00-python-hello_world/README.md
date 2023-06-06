@@ -13,3 +13,5 @@
 4. 4-print_float.py - Prints a floating value with only 2 decimal points.
 
 5. 5-print_string.py - print 3 times a string stored in a variable str, followed by its first 9 characters.
+
+6. 6-concat.py - Concatenates two strings in variables, str1 and str2.
