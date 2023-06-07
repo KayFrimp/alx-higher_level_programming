@@ -12,3 +12,5 @@
 4. 4-print_hexa.py - Prints all numbers from 0 to 98 in decimal and in hexadecimal.
 
 5. 5-print_comb2.py - Prints numbers from 0 to 99 in ascending order with two digits.
+
+6. 6-print_comb3.py - Prints all possible different combinations of two digits.
