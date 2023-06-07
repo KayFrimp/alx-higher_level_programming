@@ -8,3 +8,5 @@
 2. 2-print_alphabet.py - Prints ASCII alphabets in lowercase.
 
 3. 3-print_alphabt.py - Prints all ASCII alphabets in lowercase except 'e' and 'q'.
+
+4. 4-print_hexa.py - Prints all numbers from 0 to 98 in decimal and in hexadecimal.
