@@ -11,3 +11,5 @@
 3. 3-infinite_add.py - Prints the result of the addition of all arguments.
 
 4. 4-hidden_discovery.py - Prints all the names defined by the compiled module hidden_4.pyc.
+
+5. 5-variable_load.py - Imports variable from a file and prints it's value.
