@@ -7,3 +7,5 @@
 1. 1-calculation.py - Imports functions from a file and calls them within program.
 
 2. 2-args.py - Prints the number of and list of it's arguments.
+
+3. 3-infinite_add.py - Prints the result of the addition of all arguments.
