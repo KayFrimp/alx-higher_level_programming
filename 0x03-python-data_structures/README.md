@@ -6,4 +6,6 @@
 
 1. 1-element_at.py - Function retrieves an element from a list like in C.
 
-2. 2-replace_in_list.py = Function replaces an element of a list at a specified index.
+2. 2-replace_in_list.py - Function replaces an element of a list at a specified index.
+
+3. 3-print_reversed_list_integer.py - Function prints all integers of a list in reverse order.
