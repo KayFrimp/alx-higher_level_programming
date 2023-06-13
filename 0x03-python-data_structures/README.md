@@ -17,3 +17,5 @@
 6. 6-print_matrix_integer.py - Function prints a matrix of integers.
 
 7. 7-add_tuple.py - Function adds two tuples.
+
+8. 8-multiple_returns - Returns a tuple with the length of a string and it's first character.
