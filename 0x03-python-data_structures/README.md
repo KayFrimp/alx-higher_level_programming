@@ -21,3 +21,5 @@
 8. 8-multiple_returns - Returns a tuple with the length of a string and it's first character.
 
 9. 9-max_integer.py - Finds the biggest integer of a list.
+
+10. 10-divisible_by_2.py - Finds all multiples of 2 in a list.
