@@ -19,3 +19,5 @@
 7. 7-add_tuple.py - Function adds two tuples.
 
 8. 8-multiple_returns - Returns a tuple with the length of a string and it's first character.
+
+9. 9-max_integer.py - Finds the biggest integer of a list.
