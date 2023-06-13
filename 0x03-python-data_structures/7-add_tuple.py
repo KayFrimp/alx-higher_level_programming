@@ -8,6 +8,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
         tuple_b = list(tuple_b)
         tuple_b.append(0)
         tuple_b = tuple(tuple_b)
-    x1, y1 = tuple_a
-    x2, y2 = tuple_b
-    return x1 + x2, y1 + y2
+    return (tuple_a[0] + tuple_b[0], tuple_a[1] + tuple_b[1])
