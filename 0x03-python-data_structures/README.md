@@ -15,3 +15,5 @@
 5. 5-no_c.py - Function removes all characters c and C from a string.
 
 6. 6-print_matrix_integer.py - Function prints a matrix of integers.
+
+7. 7-add_tuple.py - Function adds two tuples.
