@@ -10,3 +10,5 @@
 3. 3-square.py - Square class with size attribute and method to calculate the area.
 
 4. 4-square.py - Square class with property setter.
+
+5. 5-square.py - Prints square with '#' character.
