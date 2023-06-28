@@ -8,3 +8,5 @@
 2. 2-square.py - class Square with validation checks for size attribute.
 
 3. 3-square.py - Square class with size attribute and method to calculate the area.
+
+4. 4-square.py - Square class with property setter.
