@@ -7,7 +7,7 @@ class Square:
     """An empty class that defines a square.
 
     Args:
-     __size (int): Length of square.
+    size (int): Length of square.
 
     """
 
@@ -20,6 +20,7 @@ class Square:
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
-        elif isinstance(size, int) and size < 0:
+        elif size < 0:
             raise ValueError("size must be an integer")
-        self.__size = size
+        else:
+            self.__size = size
