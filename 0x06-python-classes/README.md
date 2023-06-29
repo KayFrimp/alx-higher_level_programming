@@ -12,3 +12,5 @@
 4. 4-square.py - Square class with property setter.
 
 5. 5-square.py - Prints square with '#' character.
+
+6. 6-square.py - Adds coordinate position to Square
