@@ -55,6 +55,8 @@ TypeError: print_sorted() takes 1 positional argument but 2 were given
 
 
 >>> my_list = MyList()
+>>> my_list.print_sorted()
+[]
 >>> my_list.append(2)
 >>> my_list.append(3)
 >>> my_list.append(-1)
@@ -62,5 +64,3 @@ TypeError: print_sorted() takes 1 positional argument but 2 were given
 >>> my_list.append(-3)
 >>> my_list.print_sorted()
 [-3, -1, 2, 3, 5]
-
-
