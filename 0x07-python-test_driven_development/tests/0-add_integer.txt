@@ -1,0 +1,58 @@
+The ``0-add_integer`` module
+===============================
+
+Using ``add_integer``
+_____________________
+
+This function add_integer(a, b=98) takes two integer arguments and\
+defaults b to 98.
+
+First import ``add_integer`` from the ``0-add_integer`` module:
+
+>>> add_integer = __import__('0-add_integer').add_integer
+
+++++++++++++
++TEST CASES+
+++++++++++++
+
+
+CASE_1: |WHEN a and b are positive integers|
+>>> add_integer(2, 98)
+100
+
+
+CASE_2: |WHEN a is positive and b is negative integer|
+>>> add_integer(10, -2)
+8
+
+
+CASE_3: |WHEN a is a float and b is a positive integer|
+>>> add_integer(3.4, 7)
+10
+
+
+CASE_4: |WHEN a and b are floats|
+>>> add_integer(2.8, 10.6)
+12
+
+
+CASE_5: |WHEN only one input is provided|
+>>> add_integer(2)
+100
+
+
+CASE_6: |WHEN a is a float overflow|
+>>> add_integer(float('inf'), 5)
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to integer
+
+
+CASE_7: |WHEN a is a float NaN|
+>>> add_integer(float('nan'), 5)
+Traceback (most recent call last):
+...
+ValueError: cannot convert float NaN to integer
+
+
+___________________________________THE END______________________________
