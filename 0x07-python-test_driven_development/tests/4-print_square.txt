@@ -1,0 +1,62 @@
+The ``4-print_square`` module
+===============================
+
+Using ``print_square``
+_____________________
+
+FUNCTION PROTOTYPE --> def print_square(size):
+Constraint: size must be a positive integer
+
+
+First import ``print_square`` from the ``4-print_square`` module:
+
+>>> print_square = __import__('4-print_square').print_square
+
+
+++++++++++++
++TEST CASES+
+++++++++++++
+
+
+CASE_1: |size=4|
+>>> print_square(4)
+####
+####
+####
+####
+
+
+CASE_2: |size=0|
+>>> print_square(0)
+
+
+
+CASE_3: |size=3.4|
+>>> print_square(3.4)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+
+CASE_4: |size=-3|
+>>> print_square(-3)
+Traceback (most recent call last):
+...
+ValueError: size must be >= 0
+
+
+CASE_5: |size missing|
+>>> print_square()
+Traceback (most recent call last):
+...
+TypeError: print_square() missing 1 required positional argument: 'size'
+
+
+CASE_6: |size=-0.2|
+>>> print_square(-0.2)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+
+______________________________THE END___________________________________
