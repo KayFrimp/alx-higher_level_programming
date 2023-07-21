@@ -1,0 +1,56 @@
+The ``3-say_my_name`` module
+===============================
+
+Using ``say_my_name``
+_____________________
+
+FUNCTION PROTOTYPE --> def say_my_name(first_name, last_name=""):
+Constraint: first_name & last_name must be strings
+
+
+First import ``say_my_name`` from the ``3-say_my_name`` module:
+
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+
+++++++++++++
++TEST CASES+
+++++++++++++
+
+
+CASE_1: |first_name="Kwabena", last_name="Frimpong"|
+>>> say_my_name("Kwabena", "Frimpong")
+My name is Kwabena Frimpong
+
+
+CASE_2: |first_name="Kwabena", last_name=3|
+>>> say_my_name("Kwabena", 3)
+Traceback (most recent call last):
+...
+TypeError: last_name must be a string
+
+
+CASE_3: |first_name=2, last_name="Frimpong"|
+>>> say_my_name(2, "Frimpong")
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+
+CASE_4: |first_name=2, last_name=3.0|
+>>> say_my_name(2, 3.0)
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+
+CASE_5: |first_name="Kwabena", last_name missing|
+>>> say_my_name("Kwabena")
+My name is Kwabena 
+
+
+CASE_6: |No argument|
+>>> say_my_name()
+Traceback (most recent call last):
+...
+TypeError: say_my_name() missing 1 required positional argument: 'first_name'
