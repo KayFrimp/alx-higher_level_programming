@@ -67,13 +67,18 @@ CASE_7: |WHEN div=float(inf)|
 [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
 
 
-CASE_8: |WHEN one argument is passed|
+CASE_8: |WHEN div=float|
+>>> print(matrix_divided(g_matrix, 0.5))
+[[2.0, 4.0, 8.0], [10.0, 12.0, 14.0]]
+
+
+CASE_9: |WHEN one argument is passed|
 >>> print(matrix_divided(g_matrix))
 Traceback (most recent call last):
 ...
 TypeError: matrix_divided() missing 1 required positional argument: 'div'
 
-CASE_9: |WHEN no argument is passed|
+CASE_10: |WHEN no argument is passed|
 >>> print(matrix_divided())
 Traceback (most recent call last):
 ...
