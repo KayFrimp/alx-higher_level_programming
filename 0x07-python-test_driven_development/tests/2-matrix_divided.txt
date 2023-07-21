@@ -1,0 +1,66 @@
+The ``2-matrix_divided`` module
+===============================
+
+Using ``matrix_divided``
+________________________
+
+This function matrix_divided(matrix, div) takes a matrix and div(divisor) as\
+parameters.
+
+First import ``matrix_divided`` from the ``2-matrix_divided`` module:
+
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+++++++++++++
++TEST CASES+
+++++++++++++
+
+Global Matrix
+>>> g_matrix = [[1, 2, 4], [5, 6, 7]]
+
+
+CASE_1: |matrix is valid and div is valid|
+>>> print(matrix_divided(g_matrix,3))
+[[0.33, 0.67, 1.33], [1.67, 2.0, 2.33]]
+
+
+CASE_2: |WHEN div is not a number|
+>>> print(matrix_divided(g_matrix, "a"))
+Traceback (most recent call last):
+...
+TypeError: div must be a number
+
+
+CASE_3: |WHEN div is zero|
+>>> print(matrix_divided(g_matrix, 0))
+Traceback (most recent call last):
+...
+ZeroDivisionError: division by zero
+
+
+CASE_4: |WHEN matrix is invalid|
+>>> matrix = [1, 2, 3]
+>>> print(matrix_divided(matrix, 2))
+Traceback (most recent call last):
+...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+CASE_5: |WHEN matrix has other objects other than a list, say a tuple|
+>>> matrix = [[1, 2, 3], (1, 3)]
+>>> print(matrix_divided(matrix, 3))
+Traceback (most recent call last):
+...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+
+CASE_6: |WHEN matrix has unequal sized lists|
+>>> matrix = [[1, 2, 4, 5], [2, 4, 5], [1, 4, 6, 7, 8]]
+>>> print(matrix_divided(matrix, 2))
+Traceback (most recent call last):
+...
+TypeError: Each row of the matrix must have the same size
+
+
+
+________________________________THE END______________________________
