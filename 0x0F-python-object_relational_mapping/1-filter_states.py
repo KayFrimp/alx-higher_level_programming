@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     """ write and execute the sql query """
     cursor.execute("SELECT * FROM states\
-    WHERE  name LIKE 'N%' ORDER BY states.id ASC")
+    WHERE name LIKE 'N%' ORDER BY states.id ASC")
 
     """ fetch the results of the query """
     res = cursor.fetchall()
