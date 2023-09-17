@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module queries first State object"""
+"""Module filters State objects containing 'a' in their name"""
 
 import sys
 from model_state import Base, State
