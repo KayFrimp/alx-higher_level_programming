@@ -1,3 +1,3 @@
 #!/bin/bash
 # Makes a request to 0.0.0.0:5000/catch_me that gets the message "You got me!"
-curl -s -X POST http://0.0.0.0:5000/catch_me -d "You got me!"
+curl -sX PUT -d "user_id=98" -H "Origin: HolbertonSchool" http://0.0.0.0:5000/catch_me
